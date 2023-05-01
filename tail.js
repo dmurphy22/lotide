@@ -7,6 +7,13 @@ const assertEqual = function(actual, expected) {
 };
 
 const tail = function(arr) {
-  
+  const result = [];
 
+  for (let i = 1; i < arr.length; i++) {
+    result.push(arr[i]);
+  }
+  return result;
 };
+
+const result = tail(["Hello", "Lighthouse", "Labs"]);
+assertEqual(result, ["Lighthouse", "Labs"]); // => will always fail!
