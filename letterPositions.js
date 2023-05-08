@@ -16,3 +16,4 @@ const letterPositions = function(sentence) {
 };
 
 console.log(letterPositions("This is a long sentance for counting letters lol how many is there lets try a number 88888 now lets try a symbol #^$"));
+module.exports = letterPositions;

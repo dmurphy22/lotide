@@ -13,3 +13,4 @@ const countLetters = function(sentence) {
 };
 
 countLetters("This is a long sentance for counting letters lol how many is there lets try a number 88888 now lets try a symbol #^$");
+module.exports = countLetters;

@@ -17,3 +17,4 @@ const bestTVShowsByGenre = {
 
 findKeyByValue(bestTVShowsByGenre, "The Wire");
 findKeyByValue(bestTVShowsByGenre, "That '70s Show");
+module.exports = findKeyByValue;
