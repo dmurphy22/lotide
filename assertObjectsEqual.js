@@ -17,9 +17,4 @@ const assertObjectsEqual = function(actual, expected) {
   
 };
 
-let obj1 = {name: "Darragh"};
-let obj2 = {name: "Darragh"};
-
-assertObjectsEqual(obj1,obj2);
-
 module.exports = assertObjectsEqual;
